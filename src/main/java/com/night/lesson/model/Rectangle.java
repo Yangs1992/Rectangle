@@ -1,4 +1,4 @@
-package com.night.lesson;
+package com.night.lesson.model;
 
 public class Rectangle {
     private int width;
@@ -34,5 +34,9 @@ public class Rectangle {
 
     public int getPerimeter(){
         return (width + length) * 2;
+    }
+
+    public void testDemo() {
+
     }
 }
